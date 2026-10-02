@@ -1,0 +1,20 @@
+{
+  "id": 809,
+  "title": "Crop Survey Drone Anomaly Imaging",
+  "repository_slug": "crop-survey-drone-anomaly-imaging",
+  "category": "Drones",
+  "platform": "Jetson Orin Nano",
+  "platform_family": "python",
+  "difficulty": "Advanced",
+  "estimated_hours": 40,
+  "connectivity": "Wi-Fi",
+  "components": [
+    "IMU",
+    "flight controller"
+  ],
+  "scope": "Build a drones prototype that uses IMU, flight controller to capture extra images when anomalies are detected. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Anomaly Imaging demonstration with repeatable test steps",
+  "mode": "edge_classification",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
